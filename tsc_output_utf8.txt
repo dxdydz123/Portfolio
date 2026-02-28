@@ -1,0 +1,4 @@
+﻿.next/types/validator.ts(42,39): error TS2307: Cannot find module '../../src/app/page.js' or its corresponding type declarations.
+src/components/ui/AppIcon.tsx(4,28): error TS2307: Cannot find module '@heroicons/react/24/outline' or its corresponding type declarations.
+src/components/ui/AppIcon.tsx(5,33): error TS2307: Cannot find module '@heroicons/react/24/solid' or its corresponding type declarations.
+src/components/ui/AppIcon.tsx(6,40): error TS2307: Cannot find module '@heroicons/react/24/outline' or its corresponding type declarations.
