@@ -47,7 +47,7 @@ function Icon({
     disabled = false,
     ...props
 }: IconProps) {
-    const IconComponent = icons[variant][name as keyof typeof icons['outline']] as React.ComponentType<any>;
+    const IconComponent = icons[variant][name as keyof typeof icons['outline']];
 
 
     if (!IconComponent) {

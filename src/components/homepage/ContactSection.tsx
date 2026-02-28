@@ -98,7 +98,7 @@ export default function ContactSection() {
                 setError(data.error || "Something went wrong. Please try again.");
                 setSubmitting(false);
             }
-        } catch (err) {
+        } catch {
             setError("Failed to connect. Please check your internet.");
             setSubmitting(false);
         }
