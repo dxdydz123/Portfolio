@@ -35,7 +35,7 @@ interface IconProps {
     className?: string;
     onClick?: () => void;
     disabled?: boolean;
-    [key: string]: any;
+    [key: string]: unknown;
 }
 
 function Icon({
